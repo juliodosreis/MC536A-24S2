@@ -1,4 +1,4 @@
-# Laboratorio 1
+# Laboratório 1
 ## 1. Objetivos
 
 Este laboratório tem os seguintes objetivos de aprendizagem:
