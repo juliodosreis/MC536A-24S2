@@ -12,4 +12,4 @@ Paula Jeniffer dos Santos Viriato (PED);
 Víctor Jesús Sotelo Chico (PED).
 
 ## Laboratórios da disciplina:
-- [Laboratório 01](LAB01/enunciado.md) (Publicação: 04/03, **Entrega: 10/09**).
+- [Laboratório 01](LAB01/enunciado.md) (Publicação: 04/03).
