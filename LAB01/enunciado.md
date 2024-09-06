@@ -73,3 +73,6 @@ Siga as instruções da **Seção 2** para:
 + Definir chaves primárias, estrangeiras e restrições de integridade para as tabelas desse banco de dados;
 + Criar e modificar tabelas;
 + Criar índices.
+
+## 4. Submissão
+As tarefas desenvolvidas neste laboratório não precisam ser entregues, mas elas servem como preparo para a realização dos próximos laboratórios e do Projeto em grupo da disciplina. Os próximos laboratórios, sim, deverão ser entregues via Google Classroom valendo nota. Por isso, recomendamos fortemente a realização deste laboratório.
