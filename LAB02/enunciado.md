@@ -50,7 +50,18 @@ Você recebeu uma lista de instruções a serem operadas na tabela *atleta*. Par
 | 19            | Laura Pigossi               | Brasil   | 1994               | Tênis          | null      | 2024          |
 | 20            | Amanda Schott               | Brasil   | 1996               | Levantamento de Peso          | null      | 2024          |
 
-Obs: Se você não criou ou não salvou a relação atleta no laboratório passado, será preciso criá-la antes de fazer a inserção das tuplas.
+Obs: Se você não criou ou não salvou a relação atleta no laboratório passado, é possível criá-la com a seguinte consulta:
+```sql
+CREATE TABLE ATLETA (
+   ID INTEGER not NULL PRIMARY KEY,
+   nome TEXT NULL,
+   pais TEXT NULL,
+   ano_nascimento INTEGER NULL,
+   esporte TEXT NULL,
+   medalha TEXT NULL,
+   edicao_olimpiada INTEGER
+);
+```
 
 2. Atualizar o nome dos medalhistas de "Brasil" para "Disputa por equipes".
 
@@ -83,7 +94,7 @@ Obs: Se você não criou ou não salvou a relação atleta no laboratório passa
 Agora, você terá de analisar o resultado de algumas consultas SQL já existentes no sistema da COB.
 
 15. Explique o resultado da seguinte consulta:
-```
+```sql
 SELECT nome_pais, esporte, edicao_olimpiada
 FROM atleta
 WHERE edicao_olimpiada = '2024'
@@ -94,7 +105,7 @@ WHERE medalha IS NOT NULL AND edicao_olimpiada = '2024';
 ```
 
 16. Explique o resultado das seguintes consultas. Qual a diferença entre eles?
-```
+```sql
 SELECT nome_pais, esporte, medalha
 FROM atleta
 WHERE medalha = 'Ouro'
@@ -103,7 +114,7 @@ SELECT nome_pais, esporte, medalha
 FROM atleta
 WHERE medalha = 'Prata';
 ```
-```
+```sql
 SELECT nome_pais, esporte, medalha
 FROM atleta
 WHERE medalha = 'Ouro'
@@ -114,7 +125,7 @@ WHERE medalha = 'Prata';
 ```
 
 17. Por que não podemos usar a seguinte consulta para listar sem repetições o nome de todos os medalhistas olímpicos nascidos em 1999? O que precisa ser ajustado nela para que isso seja possível?
-```
+```sql
 SELECT DISTINCT nome, medalha
 FROM atleta
 WHERE ano_nascimento > 2000;
@@ -125,25 +136,25 @@ WHERE ano_nascimento > 2000;
 Você recebeu uma série de consultas SQL para revisar. Cada consulta contém erros de sintaxe ou semântica que precisam ser identificados e corrigidos. Analise cada uma das seguintes consultas SQL e identifique os erros presentes. Para cada consulta, explique o tipo de erro (sintaxe ou semântica) e forneça a versão corrigida da consulta.
 
 18.
-```
+```sql
 INSERT INTO atleta (id, nome, pais, ano_nascimento, esporte, medalha, edicao_olimpiada)
 VALUES (1, 'João', 'Brasil', '1985', 'Natação', 'Ouro', 2024);
 ```
 
 19.
-```
+```sql
 UPDATE atleta WHERE nome = 'Rayssa Leal';
 ```
 
 20.
-```
+```sql
 SELECT nome FROM atleta WHERE pais = 'Brasil'
 UNION
 SELECT ano_nascimento FROM atleta WHERE medalha = 'Ouro';
 ```
 
 21.
-```
+```sql
 SELECT nome, pais FROM atleta WHERE esporte = 'Futebol'
 EXCEPT
 SELECT medalha FROM atleta WHERE edicao_olimpiada = 2024;
