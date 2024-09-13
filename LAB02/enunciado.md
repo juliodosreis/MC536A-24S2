@@ -16,7 +16,7 @@ Suas primeiras tarefas estão descritas nas seções seguintes. Elas devem ser e
 
 Dessa vez, acesse o SQL Online IDE (https://sqliteonline.com/) para executar as tarefas solicitadas neste laboratório. Selecione a opção "PotsgreSQL" no menu lateral esquerdo para executar consultas SQL através do SGBD open source PostgreSQL, um dos mais usados no mundo para implementação de bancos de dados relacionais. Escreva as consultas SQL na janela central e as execute clicando no botão "Run" do menu superior.
 
-<img src="/Images/sql-online-ide.png">
+<img src="/Images/sql-online-ide.jpeg">
 
 Figura 1: Interface do SQL Online IDE
 
