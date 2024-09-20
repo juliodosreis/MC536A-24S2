@@ -23,8 +23,8 @@ Representa um atleta olímpico e conte os seguintes atributos do atleta:
 + name: nome
 + sex: sexo
 + birth_year: ano de nascimento.
-+ height: peso
-+ weight: altura
++ height: altura
++ weight: peso
 + country: país
 + country_noc: código do país
 
