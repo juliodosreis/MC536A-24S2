@@ -140,7 +140,7 @@ Você recebeu uma lista de desafio para testar suas habilidades na linguagem SQL
 12. Crie uma consulta que retorne o país e o total de medalhas, diferenciando entre esportes de equipe e individuais, usando o comando **CASE**.
 13. Escreva uma consulta que agrupe os países pela quantidade total de medalhas e categorize o país como "Alta Performance" se o total de medalhas for maior que 50, ou "Baixa Performance" caso contrário.
 
-### 2.3 Análise de Consultas SQL
+### 2.4 Análise de Consultas SQL
 
 Agora, você terá de analisar o resultado de algumas consultas SQL.
 17. Explique o resultado da seguinte consulta:
@@ -191,7 +191,7 @@ SELECT a.name, a.height
 FROM athlete a
 ORDER BY a.height ASC;
 ```
-### 2.4 Identificação e Correção de Erros em Consultas SQL
+### 2.5 Identificação e Correção de Erros em Consultas SQL
 
 Você recebeu uma série de consultas SQL para revisar. Cada consulta contém erros de sintaxe ou semântica que precisam ser identificados e corrigidos. Analise cada uma das seguintes consultas SQL e identifique os erros presentes. Para cada consulta, explique o tipo de erro (sintaxe ou semântica) e forneça a versão corrigida da consulta.
 24. Corrija o erro de lógica na consulta abaixo:
