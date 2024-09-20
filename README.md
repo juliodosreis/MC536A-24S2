@@ -16,4 +16,6 @@
 - Víctor Jesús Sotelo Chico (PED).
 
 ## Laboratórios da disciplina:
-- [Laboratório 01](LAB01/enunciado.md) (Publicação: 04/03).
+- [Laboratório 01](LAB01/enunciado.md) (Publicação: 06/09).
+- [Laboratório 02](LAB02/enunciado.md) (Publicação: 13/09,Entrega: 20/09).
+- [Laboratório 03](LAB03/enunciado.md) (Publicação: 20/09,Entrega: 27/09).
