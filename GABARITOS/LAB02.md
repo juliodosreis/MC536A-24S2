@@ -120,3 +120,7 @@ AND medalha IN ('Ouro', 'Prata', 'Bronze');
 - 7, para quem só apontou e corrigiu os erros 1 e 2;
 - 5, para quem só apontou e corrigiu erro 3;
 - 0, para quem não apontou nem corrigiu nenhum dos erros.
+
+## Composição da nota final
+
+Média aritmética entre notas obtidas nos exercícios 15, 16 e 17.
