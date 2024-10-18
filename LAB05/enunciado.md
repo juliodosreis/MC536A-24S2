@@ -123,6 +123,12 @@ CREATE (just_the_way)-[:RELEASED_IN]->(year_2010)
 Após criar o grafo, você deverá ver informações atualizadas no canto superior esquerdo da tela (Imagem 3).
 ![Grafo](../Images/grafo.png)
 Imagem 3: Nós e relações no grafo criado.
+
+No Neo4j, é possível visualizar o banco de dados criado juntamente com suas respectivas relações. No entanto, é importante considerar que grafos muito grandes podem ser difíceis de visualizar, podendo ser necessário o uso de filtros para facilitar a análise.
+
+![alt text](../Images/neo4j_grafo.png)
+Imagem 3: Visualização do grafo criado em Neo4j.
+
 ### 2.3 Consultar documentos
 
 Crie consultas em Cypher para buscar (Se a relação não existir, você deve criar-lá):
