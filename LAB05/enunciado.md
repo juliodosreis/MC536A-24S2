@@ -12,7 +12,9 @@ O banco do COB (Comitê Olímpico do Brasil) teve grande sucesso durante os Jogo
 Agora, você foi contratado para um novo projeto: criar um banco de dados orientado a grafos utilizando o **Neo4j**, focado em um sistema de músicas similar ao **Spotify**. Você sugeriu o desenvolvimento de um modelo que inclua artistas, álbuns, músicas e usuários, além de realizar testes para garantir a consistência e a integridade dos dados.
 
 ### 2.1 Acessar o Neo4j
-Para realizar essa tarefa voce vai precisar criar uma conta no site [oficial de Neo4j](https://console.neo4j.io/?iss=https%3A%2F%2Flogin.neo4j.com%2F) (Imagem 1) para accessar a console online para gerenciamento de bancos de dados de grafos.
+Para realizar essa tarefa voce vai precisar criar uma conta no site [oficial de Neo4j](https://console.neo4j.io/?iss=https%3A%2F%2Flogin.neo4j.com%2F) (Imagem 1) para acessar o console online para gerenciamento de bancos de dados de grafos.
+
+
 
 ![Neo4j](../Images/neo4j_account.png)
 
@@ -23,21 +25,23 @@ Depois de criar a conta neo4j criará uma instancia onde o banco será armazeado
 
 
 
-Como você só precisa fazer alguns testes preliminares com Neo4j voce usuará a consola para executar as consultas na linguagem cypher.
+Como você só precisa fazer alguns testes preliminares com Neo4j voce utilizará a consola para executar as consultas na linguagem Cypher.
+
 ![Query console](../Images/Query_console.png)
 
 *Imagem 2: Interface do site de Neo4J*
 
 No Neo4j, você poderá:
-- Escrever comandos do cypher no editor de texto à esquerda da página;
+- Escrever comandos do Cypher no console  da página;
 - Executá-los clicando no botão "Execução" que aparece no canto superior direito da tela;
 - Conferir os resultados no console.
 - Explorar as entidades e relações do grafo.
 
 
-
 ### 2.2 Criar um grafo inicial
-Como a instancia de Neo4j está vazio, voce precisará criando um grafo inicial para isso você poderá usar o código de embaixo copiando e colando na consola.
+Como a instância de Neo4j está vazia, você precisará criar um grafo inicial. Para isso, você poderá usar o código de baixo copiando e colando na consola.
+
+
 
 ```cypher
 // Criando artistas
@@ -116,12 +120,12 @@ CREATE (formation)-[:RELEASED_IN]->(year_2016)
 CREATE (just_the_way)-[:RELEASED_IN]->(year_2010)
 
 ```
-Depois de criar o grafo, você deverá ver informações atualizadas no canto superior esquerdo da tela (Imagem 3).
+Após criar o grafo, você deverá ver informações atualizadas no canto superior esquerdo da tela (Imagem 3).
 ![Grafo](../Images/grafo.png)
-Imagem 3: Nós e relações no grafo criado
+Imagem 3: Nós e relações no grafo criado.
 ### 2.3 Consultar documentos
 
-Crie consultas em Cypher para buscar (Se a relação não existir você devera criar-lá):
+Crie consultas em Cypher para buscar (Se a relação não existir, você deve criar-lá):
 
 1. Crie um novo usuário chamado "Carlos" com o e-mail carlos@example.com e uma senha carlos123. Conecte esse usuário a um gênero musical "Rock", que ele gosta.
 
