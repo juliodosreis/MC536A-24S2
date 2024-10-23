@@ -23,3 +23,4 @@
 - [Laboratório 05](LAB05/enunciado.md) (Publicação: 18/10, Entrega: 25/10).
 ## Gabaritos:
 - [Gabarito Laboratório 02](GABARITOS/LAB02.md) (Publicação: 11/10).
+- [Gabarito Laboratório 03](GABARITOS/LAB03.md) (Publicação: 23/10).
