@@ -88,7 +88,7 @@ WHERE {
 
 ## 3. Tarefas
 
-- Analisar consultas em SPARQL no DBpedia (Exercícios 1 e 2);
+- Analisar consultas em SPARQL (Exercícios 1 e 2);
 - Escrever consultas em SPARQL para consultar dados no DBpedia (Exercícios 3, 4 e 5);
 - Identificar erros de sintaxe em consultas em SPARQL (Exercícios 6 e 7);
 
@@ -96,7 +96,7 @@ WHERE {
 
 Este laboratório pode ser feito em **dupla** ou **indiviual**. Submeta arquivos .pdf, .docx ou .txt no Google Classroom com a resolução apenas dos exercícios:
 
-- Exercícios 3, 4 e 5 (Seção 2.3);
+- Exercícios 3, 4 e 5 (Seção 2.2);
 
 **Data de entrega**: Dia 08/10/2024 até às 23h59.
 
