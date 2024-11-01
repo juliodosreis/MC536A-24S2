@@ -65,7 +65,7 @@ Escreva consultas em SPARQL para buscar:
 5. 10 gêneros mais associados a artistas da MPB, com exceção do primeiro
 
 
-### 2.3 Identificação de erro em consultas
+### 2.4 Identificação de erro em consultas
 
 Aponte o erro de sintaxe das seguintes consultas:
 
@@ -96,7 +96,7 @@ WHERE {
 
 Este laboratório pode ser feito em **dupla** ou **indiviual**. Submeta arquivos .pdf, .docx ou .txt no Google Classroom com a resolução apenas dos exercícios:
 
-- Exercícios 3, 4 e 5 (Seção 2.2);
+- Exercícios 3, 4 e 5 (Seção 2.3);
 
 **Data de entrega**: Dia 08/10/2024 até às 23h59.
 
