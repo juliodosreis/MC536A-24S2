@@ -98,7 +98,7 @@ Este laboratório pode ser feito em **dupla** ou **indiviual**. Submeta arquivos
 
 - Exercícios 3, 4 e 5 (Seção 2.3);
 
-**Data de entrega**: Dia 08/10/2024 até às 23h59.
+**Data de entrega**: Dia 15/10/2024 até às 23h59.
 
 ## 5. Critérios de Avaliação
 
