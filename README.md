@@ -26,3 +26,4 @@
 - [Gabarito Laboratório 02](GABARITOS/LAB02.md) (Publicação: 11/10).
 - [Gabarito Laboratório 03](GABARITOS/LAB03.md) (Publicação: 23/10).
 - [Gabarito Laboratório 04](GABARITOS/LAB04.md) (Publicação: 13/11).
+- [Gabarito Laboratório 06](GABARITOS/LAB06.md) (Publicação: 21/11).
